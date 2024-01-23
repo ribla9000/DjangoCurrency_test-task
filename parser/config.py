@@ -1,0 +1,4 @@
+import os
+
+
+EXCHANGERATE_API_KEY = os.getenv("ENV_EXCHANGERATE_API_KEY")
