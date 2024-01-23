@@ -1,3 +1,8 @@
 ENV_EXCHANGERATE_API=09baA213Cjva2139KL$fjnvvv12AQdv
 #api_key above - wrong
 #where to find: https://app.exchangerate-api.com/keys
+POSTGRES_HOST=localhost
+POSTGRES_USER=michael_owner
+POSTGRES_DB_NAME=django_task
+POSTGRES_PORT=5432
+POSTGRES_PASSWORD=opiAkvm135Qquey
