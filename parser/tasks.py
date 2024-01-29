@@ -16,6 +16,7 @@ def make_request_to_exchangerate_api(code: str = "RUB"):
         response = requests.get(url)
         if response.status_code != 200:
             time.sleep(2)
+            continue
 
         data = response.json()
         if data is None:
